@@ -1,3 +1,5 @@
+// IA Generativa com prompt escrito diretamente no código
+
 import dotenv from "dotenv";
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
@@ -10,7 +12,7 @@ async function run() {
 
     const prompt = 
     
-    "Escreva para mim sobre o SER Caxias, clube de Caxias do Sul.";
+    "Escreva para mim sobre o Inter, maior clube do Brasil.";
 
     const result = await model.generateContent(prompt);
     const response = await result.response;

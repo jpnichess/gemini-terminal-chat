@@ -1,3 +1,5 @@
+// Arquiivo para IA fazer identificação de imagens
+
 import dotenv from "dotenv";
 import * as fs from "fs";
 import { GoogleGenerativeAI } from '@google/generative-ai';
