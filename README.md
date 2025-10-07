@@ -42,7 +42,7 @@ Foram criados scripts que demonstram desde a comunicação inicial até funciona
 
 Para rodar o projeto:
 
-- Adquira uma Chave API Google Gemini[https://aistudio.google.com/api-keys]
+- [Adquira uma Chave API Google Gemini](https://aistudio.google.com/api-keys)
 - Adicione a chave API no arquivo .env
 
   Por fim:
