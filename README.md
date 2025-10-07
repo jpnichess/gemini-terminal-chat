@@ -43,4 +43,5 @@ Foram criados scripts que demonstram desde a comunicação inicial até funciona
 Instale tudo com:
 
 ```bash
-npm install axios dotenv readline-sync @google/generative-ai
+git clone 
+npm install 
