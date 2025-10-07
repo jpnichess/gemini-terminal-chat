@@ -1,4 +1,4 @@
-// Primeiro teste Google Gemini API
+// First test of Google Gemini API
 
 import dotenv from "dotenv";
 import { GoogleGenerativeAI } from '@google/generative-ai';

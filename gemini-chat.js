@@ -1,4 +1,4 @@
-// Chat personalizado para conversação via terminal. Respostas estáticas.
+// Chat for teminal with static answers
 
 import dotenv from "dotenv";
 import readline from "readline";

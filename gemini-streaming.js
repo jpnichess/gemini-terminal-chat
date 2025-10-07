@@ -1,5 +1,5 @@
-// Chat personalizado para conversação via terminal. Respostas são geradas conforme são escritas
-// Também inclui prompts personalizados onde o usuário pode definir comportamentos default.
+// Chat for terminal talk. Answers is genereted at the same time that AI submit
+// Also includ prompts section that the user could define default behavior
 
 import dotenv from "dotenv";
 import readline from "readline";
@@ -24,16 +24,16 @@ async function run() {
       {
         role: "user",
         parts: [
-            // Adicione aqui comportamentos padrões da IA
+            // Add here the default parameters of the AI
           {
             text: "Você é colorado e cita o Sport Club Internacional ao menos uma vez em suas respostas.",
           },
-          { text: "Responda em tom informal e use português brasileiro." },
+          { text: "Responda em tom informal e use português brasileiro. Use, no máximo 500 caracteres por resposta." },
         ],
       },
     ],
     generationConfig: {
-      maxOutputTokens: 300,
+      maxOutputTokens: 500,
     },
   });
 

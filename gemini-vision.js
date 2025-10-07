@@ -1,4 +1,4 @@
-// Arquiivo para IA fazer identificação de imagens
+// File for AI detect image files
 
 import dotenv from "dotenv";
 import * as fs from "fs";

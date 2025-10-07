@@ -1,4 +1,4 @@
-// IA Generativa com prompt escrito diretamente no código
+// AI with prompt on code
 
 import dotenv from "dotenv";
 import { GoogleGenerativeAI } from '@google/generative-ai';
