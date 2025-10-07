@@ -43,5 +43,8 @@ Foram criados scripts que demonstram desde a comunicação inicial até funciona
 Instale tudo com:
 
 ```bash
-git clone 
-npm install 
+git clone https://github.com/jpnichess/gemini-terminal-chat.git
+cd gemini-terminal-chat/
+npm install
+node gemini-streaming.js
+
