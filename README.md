@@ -40,8 +40,13 @@ Foram criados scripts que demonstram desde a comunicação inicial até funciona
   - `dotenv`
   - `readline-sync` (para o chat no terminal)
 
-Instale tudo com:
+Para rodar o projeto:
 
+- Adquira uma Chave API Google Gemini[https://aistudio.google.com/api-keys]
+- Adicione a chave API no arquivo .env
+
+  Por fim:
+  
 ```bash
 git clone https://github.com/jpnichess/gemini-terminal-chat.git
 cd gemini-terminal-chat/
